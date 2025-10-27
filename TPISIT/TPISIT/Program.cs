@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TPISIT
+﻿class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-        }
+        Veicolo veicolo = new Veicolo("Fiat", "Panda", 2015);
+        veicolo.MostraInfo();
+
+        Auto auto = new Auto("Tesla", "Model 3", 2023, 4);
+        auto.MostraInfo();
     }
 }
